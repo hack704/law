@@ -1,0 +1,210 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.navbar {
+    position: fixed; /* Make navbar fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #002147; /* Solid background */
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+.navbar .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adds space between elements */
+}
+
+.navbar .logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.navbar .logo-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Adjust gap for equal spacing */
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+    color: #f0a500;
+}
+
+
+
+.language-select {
+    padding: 3px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.nav-search {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 1px;
+    border-radius: 5px;
+    border: 0px solid #ccc;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 4px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.search-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+}
+
+.page-heading {
+    text-align: center;
+    margin-top: 100px; /* Adjust to place it below the navbar */
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sub-heading {
+    text-align: center;
+    margin-top: 50px; /* Adjust to place it below the navbar */
+    font-size: 24px;
+    font-weight: lighter;
+    color: black;
+}
+
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+.content p {
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* List Styling */
+.content ol {
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+.content ol li {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Illustration Styling */
+.illustration {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.highlightB {
+    color: #000080;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 16.5px;
+    margin-top: 50px;
+    position: relative;
+}
+.quick-links ul {
+    list-style: none;
+    padding: 10px;
+}
+.quick-links ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.quick-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.quick-links ul li a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+

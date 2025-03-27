@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+    <a href="https://rru.ac.in/">
+            <img src="Assets\logo.png" alt="Logo Image" class="logo-image">
+        </a>
+            <div class="logo-text">
+                <span>Rashtriya Raksha University</span>
+                <span>Pioneering National Security and Police University of India</span>
+            </div>
+        </div>
+        <div class="nav-right"></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resources.html">Resources</a>
+            <a href="Feedback.html">Feedback</a>
+        </div>
+        <div class="nav-language">
+            <select class="language-select">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="gu">Gujarati</option>
+            </select>
+        </div>
+        <div class="nav-search">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-button">
+                <img src="Assets\10629681.png" alt="Search" class="search-icon">
+            </button>
+        </div>
+        </div>
+    </div>
+
+    <div class="feedback-container">
+        <h2>Feedback Form</h2>
+        <p>We value your feedback! Please take a moment to share your thoughts.</p>
+
+        <form id="feedbackForm">
+            <!-- Name -->
+            <label for="name">Name(Required):</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <!-- Email -->
+            <label for="email">Email (Required):</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <!-- Phone -->
+            <label for="phone">Phone (Required):</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <!-- Feedback Type -->
+            <label for="feedbackType">Feedback Type:</label>
+            <select id="feedbackType" name="feedbackType" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="usability">Website Usability</option>
+                <option value="content">Content Accuracy</option>
+                <option value="legal">Legal Information Relevance</option>
+                <option value="suggestion">Suggestions for Improvement</option>
+                <option value="error">Report an Error</option>
+                <option value="other">Other</option>
+            </select>
+
+            <!-- Detailed Feedback -->
+            <label for="feedbackText">Feedback:</label>
+            <textarea id="feedbackText" name="feedbackText" rows="4" required placeholder="Share your feedback..."></textarea>
+            <!-- Submit Button -->
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <!-- Success Message -->
+        <p id="successMessage" class="hidden">Thank you for your feedback!</p>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="BNS.html">Bharatiya Nyaya Sanhita</a></li>
+                <li><a href="BNSS.html">Bharatiya Nagarik Suraksha Sanhita</a></li>
+                <li><a href="BSA.html">Bharatiya Sakshya Adhiniyam</a></li>
+
+            </ul>
+        </div>
+    </footer>
+    
+    
+</body>
+</html
